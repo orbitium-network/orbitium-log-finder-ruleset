@@ -1,0 +1,31 @@
+{
+  "name": "@orbitium-network/orbitium-log-finder-ruleset",
+  "version": "1.0.4",
+  "description": "Orbitium standard ruleset for well known log patterns",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitium-network/orbitium-log-finder-ruleset.git"
+  },
+  "dependencies": {
+    "@terra-money/log-finder": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/orbitium-network/orbitium-log-finder-ruleset/issues"
+  },
+  "homepage": "https://github.com/orbitium-network/orbitium-log-finder-ruleset#readme"
+}
